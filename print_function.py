@@ -32,4 +32,4 @@ print(planet1[11:14])  # Output: sun
 print(planet1[:7]) # Output: Closest
 print(planet1[8:]) # Output: of sun
 print(planet1[:]) # Output: Closest of sun
-print(planet1[::2]) # Output: Clsso u
+print(planet1[::2]) # Output: Coeto u
