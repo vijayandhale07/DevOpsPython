@@ -26,3 +26,11 @@ print("Is the person a student?", is_student)
 # This allows for more readable and concise code when you want to include variable values or expressions within a string.
 print(f"The value of x is {x} and the value of y is {y}.")
 print(f"The name is {name} and is the persion student? {is_student}.")
+
+
+
+with open("python_logfile.log", "r") as file:
+    for line in file:
+        if "ERROR" in line:
+            print(line.strip())
+# This code reads a log file named "python_logfile.log" and prints out any lines that contain the word "ERROR". The strip() method is used to remove any leading or trailing whitespace from the line before printing it.)
