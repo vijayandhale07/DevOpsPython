@@ -34,3 +34,14 @@ else:
     print("x is not greater than 5")
 
 print("This is the end of the code.")
+
+if name == "John doe":
+    print("Hello, John!")
+    print("Welcome to python programming!")
+    print("Have a great day!")
+else:
+    print("Hello, Stranger!")
+    print("Welcome to python programming!")
+    print("Have a great day!")
+    print("This is the end of the code.")
+    print("This is the end of the code.")
