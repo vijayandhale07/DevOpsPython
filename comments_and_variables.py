@@ -25,4 +25,12 @@ print("Is the person a student?", is_student)
 # You can also use formatted string (f-strings) to embed expressions inside sting literals, using curly brases {}.
 # This allows for more readable and concise code when you want to include variable values or expressions within a string.
 print(f"The value of x is {x} and the value of y is {y}.")
-print(f"The name is {name} and is the persion student? {is_student}.")
+print(f"The name is {name} and is the person a student? {is_student}.")
+
+# if condition to check if x is greater than 5
+if x > 5:
+    print("x is greater than 5")
+else:
+    print("x is not greater than 5")
+
+print("This is the end of the code.")
