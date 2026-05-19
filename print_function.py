@@ -33,3 +33,15 @@ print(planet1[:7]) # Output: Closest
 print(planet1[8:]) # Output: of sun
 print(planet1[:]) # Output: Closest of sun
 print(planet1[::2]) # Output: Coeto u
+
+print("###########################")
+
+# String tuple slicing
+str_tuple = ("Linux", "python", "java", "Docker", "Kubernetes", "AWS")
+
+print(str_tuple[0:3])  # Output: ('Linux', 'python', 'java')
+print(str_tuple[3:])  # Output: ('Docker', 'Kubernetes', 'AWS')
+print(str_tuple[:3])  # Output: ('Linux', 'python', 'java')
+print(str_tuple[:])  # Output: ('Linux', 'python', 'java', 'Docker', 'Kubernetes', 'AWS')
+print(str_tuple[::2])  # Output: ('Linux', 'java', 'Kubernetes')
+print(str_tuple[1:4][2][3:6])  # Output: ('python', 'Docker', 'AWS')
