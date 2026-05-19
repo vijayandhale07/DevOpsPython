@@ -46,3 +46,22 @@ print(list1[2])
 print(list1[3])
 print(list1[4])
 print(list1[9])
+
+print("##########################")
+
+# Tuples Collection of multi datatype, enclosed in round brackets.
+
+tuple1 = (1, 2.0, "three", True, [1, 3, 4])
+
+print(tuple1)
+print(tuple1[0])    
+print(tuple1[1])
+print(tuple1[2])
+print(tuple1[3])
+
+# dictionaries Collection of multi datatype, enclosed in curly brackets.
+dict1 = {"key1": "value1", "key2": "value2", "key3": "value3"}
+print(dict1)
+print(dict1["key1"])
+print(dict1["key2"])
+print(dict1["key3"])
