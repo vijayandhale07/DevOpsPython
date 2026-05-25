@@ -50,3 +50,8 @@ message1 = "    DevOps is the best career    "
 print(message1)
 print(message1.strip()) # removes leading and trailing spaces
 print(message1.strip("D")) # removes leading and trailing D
+
+print(message1.find("career"))
+print(message1[23:29])
+
+print(message1.find("career", 0, 20)) # returns -1 if not found
