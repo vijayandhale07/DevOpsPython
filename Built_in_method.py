@@ -55,3 +55,41 @@ print(message1.find("career"))
 print(message1[23:29])
 
 print(message1.find("career", 0, 20)) # returns -1 if not found
+
+seq1= ("192", "168", "1", "1")
+print(".".join(seq1)) # joins the sequence with a dot 
+print("-".join(seq1)) # joins the sequence with a dash
+print("".join(seq1)) # joins the sequence without any separator
+print("/".join(seq1)) # joins the sequence with a slash
+
+mountains = ["Everest", "Himalayas", "k2", "Kangchenjunga"]
+print(mountains)
+print(", ".join(mountains)) # joins the list with a comma and space
+
+mountains.append("Lhotse")
+print(mountains)
+# Combining the list into a string with a separator
+print(", ".join(mountains)) # joins the list with a comma and space
+
+mountains.extend(["Mt Rainer", "Satpuda"])
+print(mountains)
+print(", ".join(mountains)) # joins the list with a comma and space
+
+# insert method is used to inset an element at a specfic index in the list
+mountains.insert(2, "Annapurna")
+print(mountains)
+
+# delete method pops method is used to delete an element 
+
+mountains.pop() # deletes the last element in the list
+print(mountains)
+mountains.pop() 
+print(mountains) 
+mountains.pop()
+print(mountains)
+
+mountains.pop(2)
+print(mountains)
+
+mountains.remove("Himalayas") # removes the first occurrence of the element
+print(mountains)
